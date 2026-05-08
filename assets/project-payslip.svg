@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="36" fill="#080b13"/>
+  <circle cx="160" cy="120" r="140" fill="#7cffc4" opacity=".16"/>
+  <circle cx="740" cy="395" r="175" fill="#8a4dff" opacity=".18"/>
+  <rect x="130" y="62" width="640" height="396" rx="26" fill="#fff" opacity=".1" stroke="#fff" stroke-opacity=".18"/>
+  <rect x="180" y="110" width="250" height="24" rx="12" fill="#14d9ff"/>
+  <rect x="180" y="165" width="540" height="2" fill="#fff" opacity=".22"/>
+  <g fill="#fff" opacity=".72">
+    <rect x="182" y="202" width="150" height="18" rx="9"/>
+    <rect x="182" y="252" width="180" height="18" rx="9"/>
+    <rect x="182" y="302" width="128" height="18" rx="9"/>
+    <rect x="522" y="202" width="120" height="18" rx="9"/>
+    <rect x="522" y="252" width="140" height="18" rx="9"/>
+    <rect x="522" y="302" width="110" height="18" rx="9"/>
+  </g>
+  <rect x="180" y="374" width="540" height="52" rx="18" fill="#7cffc4" opacity=".82"/>
+  <text x="180" y="484" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Smart Payslip Generator</text>
+</svg>

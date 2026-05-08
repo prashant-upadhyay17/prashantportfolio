@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized profile portrait placeholder</title>
+  <desc id="desc">A futuristic profile portrait placeholder for Prashant Upadhyay.</desc>
+  <defs>
+    <radialGradient id="bg" cx="36%" cy="24%" r="78%">
+      <stop offset="0%" stop-color="#14d9ff"/>
+      <stop offset="48%" stop-color="#8a4dff"/>
+      <stop offset="100%" stop-color="#08080d"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="120" y1="100" x2="600" y2="640">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="190" y1="430" x2="540" y2="680">
+      <stop offset="0%" stop-color="#0f2840"/>
+      <stop offset="50%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#3c1672"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="720" height="720" rx="56" fill="#07070b"/>
+  <circle cx="360" cy="360" r="320" fill="url(#bg)" opacity=".9"/>
+  <circle cx="180" cy="148" r="118" fill="#14d9ff" opacity=".18" filter="url(#glow)"/>
+  <circle cx="570" cy="220" r="132" fill="#ff4fd8" opacity=".15" filter="url(#glow)"/>
+  <path d="M95 528C205 455 300 431 405 455c82 19 148 69 220 131" fill="none" stroke="#14d9ff" stroke-width="3" opacity=".3"/>
+  <path d="M118 174c120-64 273-75 421-10" fill="none" stroke="#fff" stroke-width="2" opacity=".24"/>
+  <g filter="url(#glow)">
+    <circle cx="360" cy="268" r="112" fill="#f1c5a8"/>
+    <path d="M249 253c7-87 54-139 127-139 70 0 113 45 122 122-32-23-75-38-128-42-53-4-94 15-121 59z" fill="#111420"/>
+    <path d="M234 488c22-86 83-132 126-132 45 0 107 47 129 132l39 151H196l38-151z" fill="url(#suit)"/>
+    <path d="M306 405l54 75 55-75c42 15 76 47 96 98H209c20-51 55-83 97-98z" fill="#f8fbff" opacity=".92"/>
+    <path d="M325 427l35 50 35-50 20 142h-110l20-142z" fill="#14d9ff" opacity=".88"/>
+    <path d="M251 508c68 37 144 43 225 0" fill="none" stroke="url(#glass)" stroke-width="7" opacity=".45"/>
+  </g>
+  <g fill="none" stroke="#fff" opacity=".3">
+    <circle cx="360" cy="360" r="252"/>
+    <circle cx="360" cy="360" r="292" stroke-dasharray="9 18"/>
+  </g>
+</svg>

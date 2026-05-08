@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+  <rect width="900" height="520" rx="36" fill="#090a12"/>
+  <circle cx="720" cy="145" r="170" fill="#8a4dff" opacity=".2"/>
+  <circle cx="190" cy="395" r="170" fill="#14d9ff" opacity=".13"/>
+  <rect x="250" y="82" width="400" height="356" rx="30" fill="#fff" opacity=".1" stroke="#fff" stroke-opacity=".18"/>
+  <rect x="338" y="222" width="224" height="146" rx="24" fill="#fff" opacity=".12"/>
+  <path d="M384 222v-44c0-44 28-78 66-78s66 34 66 78v44" fill="none" stroke="#14d9ff" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="450" cy="286" r="24" fill="#7cffc4"/>
+  <rect x="438" y="304" width="24" height="38" rx="12" fill="#7cffc4"/>
+  <rect x="310" y="396" width="280" height="28" rx="14" fill="#8a4dff"/>
+  <text x="250" y="482" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Authentication System</text>
+</svg>

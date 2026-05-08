@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prashant Upadhyay - Full Stack Web Developer portfolio">
+  <title>Prashant Upadhyay | Full Stack Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand gravity-item" href="#home" data-depth="0.25">PU</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-socials">
+      <a class="icon-link gravity-item" href="https://github.com/prashant-upadhyay17" data-depth="0.35"
+        aria-label="GitHub profile">GH</a>
+      <a class="icon-link gravity-item" href="https://www.linkedin.com/in/prashantupadhyay17" data-depth="0.35"
+        aria-label="LinkedIn profile">in</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-name gravity-item reveal" data-depth="0.75">Prashant Upadhyay</h1>
+          <p class="hero-role gravity-item reveal scroll-drift" data-depth="0.7">Full Stack Web Developer</p>
+          <div class="tagline gravity-item reveal" data-depth="0.55" aria-live="polite">
+            <span id="taglineText">From logic to launch - I build what matters.</span>
+          </div>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary gravity-item" href="#projects" data-depth="0.7">View Projects</a>
+            <a class="btn btn-secondary gravity-item" href="#contact" data-depth="0.6">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="profile-orbit gravity-item reveal scroll-drift" data-depth="0.8"
+          aria-label="Profile and technology orbit visualization">
+          <div class="profile-frame">
+            <img src="assets/prashant-profile.jpeg" alt="Profile portrait of Prashant Upadhyay"
+              onerror="this.onerror=null;this.src='assets/profile-photo.svg';">
+          </div>
+          <span class="orbit-pill pill-one"><span class="mini-icon react-icon"></span>React</span>
+          <span class="orbit-pill pill-two"><span class="mini-icon php-icon"></span>PHP</span>
+          <span class="orbit-pill pill-three"><span class="mini-icon db-icon"></span>MySQL</span>
+          <span class="orbit-pill pill-four"><span class="mini-icon api-icon"></span>APIs</span>
+          <span class="orbit-ring ring-one"></span>
+          <span class="orbit-ring ring-two"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell about scroll-section" id="about">
+      <div class="section-heading reveal gravity-item" data-depth="0.4">
+        <p class="eyebrow">About</p>
+        <h2>Clean systems, practical interfaces, complete delivery.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card about-card gravity-item reveal scroll-drift" data-depth="0.65">
+          <p>I am a Full Stack Web Developer with 1 year of hands-on experience in building responsive and user-focused
+            web applications. I work across both frontend and backend to deliver complete and scalable solutions.</p>
+        </article>
+        <article class="glass-card about-card gravity-item reveal scroll-drift" data-depth="0.55">
+          <p>I have experience working with HTML, CSS, JavaScript, React, PHP, MySQL, and REST APIs. I enjoy solving
+            real-world problems, building practical systems, and writing clean, efficient code.</p>
+        </article>
+        <article class="glass-card about-card gravity-item reveal scroll-drift" data-depth="0.5">
+          <p>I am comfortable working independently and managing complete development workflows from idea to deployment.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell skills scroll-section" id="skills">
+      <div class="section-heading reveal gravity-item" data-depth="0.45">
+        <p class="eyebrow">Skills</p>
+        <h2>Branches of skills, tools attached for real builds.</h2>
+      </div>
+      <div class="skill-tree reveal">
+        <div class="tree-core gravity-item" data-depth="0.5">
+          <span>Full Stack</span>
+          <strong>Toolkit</strong>
+        </div>
+        <article class="skill-branch branch-left branch-one gravity-item" data-depth="0.72">
+          <h3>Frontend</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon html-icon">H</span>HTML</span>
+            <span class="tool-chip"><span class="tech-icon css-icon">C</span>CSS</span>
+            <span class="tool-chip"><span class="tech-icon js-icon">JS</span>JavaScript</span>
+            <span class="tool-chip"><span class="tech-icon react-icon">R</span>React</span>
+            <span class="tool-chip"><span class="tech-icon wordpress-icon">W</span>WordPress</span>
+          </div>
+        </article>
+        <article class="skill-branch branch-right branch-two gravity-item" data-depth="0.66">
+          <h3>Backend</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon php-icon">P</span>PHP</span>
+            <span class="tool-chip"><span class="tech-icon db-icon">DB</span>MySQL</span>
+            <span class="tool-chip"><span class="tech-icon api-icon">A</span>REST APIs</span>
+          </div>
+        </article>
+        <article class="skill-branch branch-left branch-three gravity-item" data-depth="0.62">
+          <h3>Interface Craft</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon device-icon">R</span>Responsive Design</span>
+            <span class="tool-chip"><span class="tech-icon motion-icon">M</span>Animations</span>
+          </div>
+        </article>
+        <article class="skill-branch branch-right branch-four gravity-item" data-depth="0.7">
+          <h3>Build Quality</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon debug-icon">D</span>Debugging</span>
+            <span class="tool-chip"><span class="tech-icon speed-icon">O</span>Optimization</span>
+          </div>
+        </article>
+        <article class="skill-branch branch-left branch-five gravity-item" data-depth="0.64">
+          <h3>Designing</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon figma-icon">F</span>Figma</span>
+            <span class="tool-chip"><span class="tech-icon canva-icon">C</span>Canva</span>
+          </div>
+        </article>
+        <article class="skill-branch branch-right branch-six gravity-item" data-depth="0.68">
+          <h3>Version Control</h3>
+          <div class="tool-cloud">
+            <span class="tool-chip"><span class="tech-icon git-icon">G</span>Git</span>
+            <span class="tool-chip"><span class="tech-icon github-icon">GH</span>GitHub</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell projects scroll-section" id="projects">
+      <div class="section-heading reveal gravity-item" data-depth="0.45">
+        <p class="eyebrow">Projects</p>
+        <h2>Independent builds with real-world utility.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.72">
+          <figure class="project-visual">
+            <img src="assets/project-foodiehub.svg" alt="FoodieHub project preview">
+          </figure>
+          <div class="project-topline">
+            <span>01</span>
+            <p>Food Platform</p>
+          </div>
+          <h3>FoodieHub - Responsive Food Ordering Website</h3>
+          <p>Modern responsive food platform with dynamic UI and smooth navigation.</p>
+          <div class="tech-stack"><span><span class="tech-icon html-icon">H</span>HTML</span><span><span
+                class="tech-icon css-icon">C</span>CSS</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon react-icon">R</span>React</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span></div>
+          <p class="role">Role: Built complete project independently</p>
+          <a class="project-link" href="https://foodiehub.free.nf">View Project</a>
+        </article>
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.66">
+          <figure class="project-visual">
+            <img src="assets/project-payslip.svg" alt="Smart Payslip Generator preview">
+          </figure>
+          <div class="project-topline">
+            <span>02</span>
+            <p>Automation</p>
+          </div>
+          <h3>Payzen - Smart Payslip Generator</h3>
+          <p>Generates employee payslips with automated salary calculations.</p>
+          <div class="tech-stack"><span><span class="tech-icon html-icon">H</span>HTML</span><span><span
+                class="tech-icon css-icon">C</span>CSS</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon php-icon">P</span>PHP</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span></div>
+          <p class="role">Role: Full system development (frontend + backend)</p>
+          <a class="project-link" href="https://payzen.infinityfreeapp.com">View Project</a>
+        </article>
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.7">
+          <figure class="project-visual">
+            <img src="assets/project-ngo.svg" alt="NGO Management Website preview">
+          </figure>
+          <div class="project-topline">
+            <span>03</span>
+            <p>Management</p>
+          </div>
+          <h3>Sahyog - NGO Management Website</h3>
+          <p>Platform for NGOs to manage activities, volunteers, and donations.</p>
+          <div class="tech-stack"><span><span class="tech-icon html-icon">H</span>HTML</span><span><span
+                class="tech-icon css-icon">C</span>CSS</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon php-icon">P</span>PHP</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span></div>
+          <p class="role">Role: End-to-end development</p>
+          <a class="project-link" href="https://sahyog.infinityfreeapp.com">View Project</a>
+        </article>
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.62">
+          <figure class="project-visual">
+            <img src="assets/project-waste-food.svg" alt="Waste Food Management System preview">
+          </figure>
+          <div class="project-topline">
+            <span>04</span>
+            <p>Social Impact</p>
+          </div>
+          <h3>ShareBite - Waste Food Management System (in progress)</h3>
+          <p>Connects restaurants with NGOs to distribute surplus food.</p>
+          <div class="tech-stack"><span><span class="tech-icon html-icon">H</span>HTML</span><span><span
+                class="tech-icon css-icon">C</span>CSS</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon php-icon">P</span>PHP</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span></div>
+          <p class="role">Role: Built complete system focusing on real-world problem solving</p>
+          <a class="project-link" href="#">View Project</a>
+        </article>
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.68">
+          <figure class="project-visual">
+            <img src="assets/project-auth.svg" alt="Authentication System preview">
+          </figure>
+          <div class="project-topline">
+            <span>05</span>
+            <p>Security</p>
+          </div>
+          <h3>Nexus Core - Full Stack Authentication System</h3>
+          <p>User login, registration, and session management using APIs.</p>
+          <div class="tech-stack"><span><span class="tech-icon react-icon">R</span>React</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon php-icon">P</span>PHP</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span></div>
+          <p class="role">Role: Developed full authentication flow</p>
+          <a class="project-link" href="https://nexuscore.infinityfree.me">View Project</a>
+        </article>
+        <article class="project-card glass-card gravity-item reveal scroll-drift" data-depth="0.66">
+          <figure class="project-visual">
+            <img src="assets/project-payslip.svg" alt="Smart Payslip Generator preview">
+          </figure>
+          <div class="project-topline">
+            <span>06</span>
+            <p>Store</p>
+          </div>
+          <h3>Nikita General Store - E-Commerce Website (in progress)</h3>
+          <p>Provides every essential grocery items at your doorstep</p>
+          <div class="tech-stack"><span><span class="tech-icon html-icon">H</span>HTML</span><span><span
+                class="tech-icon css-icon">C</span>CSS</span><span><span
+                class="tech-icon js-icon">JS</span>JavaScript</span><span><span
+                class="tech-icon php-icon">P</span>PHP</span><span><span
+                class="tech-icon db-icon">DB</span>MySQL</span><span><span
+                class="tech-icon api-icon">A</span>APIs</span><span><span
+                class="tech-icon wordpress-icon">W</span>Wordpress</span></div>
+          <p class="role">Role: Full system development (frontend + backend)</p>
+          <a class="project-link" href="#">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell experience scroll-section" id="experience">
+      <div class="section-heading reveal gravity-item" data-depth="0.45">
+        <p class="eyebrow">Experience</p>
+        <h2>From idea to deployment, with ownership at every step.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item gravity-item reveal scroll-drift" data-depth="0.62">
+          <span class="timeline-node"></span>
+          <div class="glass-card">
+            <p>2025 - Present</p>
+            <h3>Full Stack Web Developer</h3>
+            <span>Building responsive interfaces, backend workflows, API integrations, and database-driven
+              systems.</span>
+          </div>
+        </article>
+        <article class="timeline-item gravity-item reveal scroll-drift" data-depth="0.56">
+          <span class="timeline-node"></span>
+          <div class="glass-card">
+            <p>Project Delivery</p>
+            <h3>Independent Development Workflow</h3>
+            <span>Managing planning, UI implementation, server logic, MySQL structures, debugging, and deployment
+              preparation.</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell contact scroll-section" id="contact">
+      <div class="section-heading reveal gravity-item" data-depth="0.45">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something that earns its place.</h2>
+      </div>
+      <div class="contact-layout">
+        <form class="contact-form glass-card gravity-item reveal scroll-drift" data-depth="0.65" id="contactForm"
+          action="send-mail.php" method="post" novalidate>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          <label class="field">
+            <input type="text" name="name" placeholder=" " required minlength="2" maxlength="70"
+              pattern="[A-Za-z .'-]{2,70}" autocomplete="name">
+            <span>Name</span>
+            <small class="field-error">Enter a valid name using letters only.</small>
+          </label>
+          <label class="field">
+            <input type="email" name="email" placeholder=" " required maxlength="120" autocomplete="email">
+            <span>Email</span>
+            <small class="field-error">Enter a valid email address.</small>
+          </label>
+          <label class="field">
+            <textarea name="message" rows="5" placeholder=" " required minlength="20" maxlength="1200"></textarea>
+            <span>Message</span>
+            <small class="field-error">Write a clear message of at least 20 characters.</small>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+        <aside class="social-panel glass-card gravity-item reveal scroll-drift" data-depth="0.55">
+          <h3>My Info</h3>
+          <a class="info-line"
+            href="mailto:prashant.upadhyay7080@gmail.com"><span>@</span><strong>Email</strong><small>prashant.upadhyay7080@gmail.com</small></a>
+          <a class="info-line"
+            href="tel:+918318453235"><span>TEL</span><strong>Mobile</strong><small>8318453235</small></a>
+          <h3>Find me online</h3>
+          <a class="social-card linkedin" href="#"
+            aria-label="LinkedIn profile"><span>in</span><strong>LinkedIn</strong><small>Professional
+              profile</small></a>
+          <a class="social-card github" href="#"
+            aria-label="GitHub profile"><span>GH</span><strong>GitHub</strong><small>Projects and code</small></a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Prashant Upadhyay | Crafted with precision</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
